@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+}
+
+input{
+    color: black;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.inputt{
+    color: white;
+    text-align: center;
+}
+
+.calc{
+    color: #dfa105;
+}
+
+.ms{
+    color: #dfa105;
+}
+
+.speed{
+    color: white;
+}
+
+.error{
+    color: red;
+}
+
+.err-warn{
+    color: white;
+    font-weight: bold;
+}
+
+.content{
+    text-align: center;
+}
+
+.hidden{
+    display: none;
+}
