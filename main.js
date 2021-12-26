@@ -28,7 +28,7 @@ var calculate = () => {
 
     if (speedValue == 0){ 
 
-        r1h.innerHTML = "";
+
         err.innerHTML =  "Rychlost nemůže být 0 / nezadaná!";
 
 
