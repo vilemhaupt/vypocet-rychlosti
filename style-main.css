@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: rgb(44, 42, 42);
 }
 
 input{
@@ -9,24 +9,28 @@ input{
 }
 
 .inputt{
-    color: white;
+    color: rgb(131, 127, 127);
     text-align: center;
+    font-size: x-large;
+
 }
 
-.calc{
-    color: #dfa105;
-}
-
+.calc,
 .ms{
     color: #dfa105;
 }
 
+
+
 .speed{
-    color: white;
+    color: rgb(131, 127, 127);
+    text-align: center;
+    font-size: large;
 }
 
 .error{
     color: red;
+    font-weight: bold;
 }
 
 .err-warn{
