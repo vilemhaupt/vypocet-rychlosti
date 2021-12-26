@@ -44,3 +44,8 @@ var calculate = () => { // Funkce díky které celý program funguje jak má
     }
 
 }
+
+speedInput.addEventListener("keyup", () => {
+    calculate();
+});
+    
