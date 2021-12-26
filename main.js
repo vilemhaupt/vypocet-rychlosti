@@ -34,8 +34,8 @@ var calculate = () => {
 
 
     } else if (speedValue >= maxSupportedValue){
+        r1h.innerHTML = "Zmenši velikost"
         err.innerHTML =  "Rychlost v m/s nemůže být větší než " + maxSupportedValue;
-        r1h.innerHTML = "";
  
 
     } else if (speedValue < 0) { 
