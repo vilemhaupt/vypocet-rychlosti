@@ -28,13 +28,14 @@ var calculate = () => {
 
     if (speedValue == 0){ 
 
+        r1h.innerHTML = "";
 
         err.innerHTML =  "Rychlost nemůže být 0 / nezadaná!";
 
 
     } else if (speedValue >= maxSupportedValue){
-        r1h.innerHTML = "";
         err.innerHTML =  "Rychlost v m/s nemůže být větší než " + maxSupportedValue;
+        r1h.innerHTML = "";
  
 
     } else if (speedValue < 0) { 
